@@ -9,7 +9,10 @@ module.exports = {
         filename: 'bundle.js'
     },
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+    },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'public'),
     },
     plugins: [
         new HtmlWebpackPlugin({
