@@ -4,7 +4,7 @@ export function SubscribeButton() {
     return (
         <button 
             type="button"
-            className={styles.subcribeButton}
+            className={styles.subscribeButton}
         >
             Subscribe now
         </button>
